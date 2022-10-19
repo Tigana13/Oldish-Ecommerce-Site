@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect('localhost', 'root', 'ambuli') or die('Failed to connect to the server'.mysqli_error());
+$conn = mysqli_connect('localhost', '', '') or die('Failed to connect to the server'.mysqli_error());
 if ($conn) {
 	echo'connection success';
 	# code...
